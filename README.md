@@ -21,6 +21,25 @@ var square = function(x) {
 };
 ```
 
+La méthode **`forEach`** permet de parcourir un tableau et d’exécuter une fonction pour chaque élément.
+
+```javascript
+var nombres = [1, 2, 3, 4];
+
+nombres.forEach(function(nombre) {
+    console.log(nombre);
+});
+```
+
+Résultat :
+
+```text
+1
+2
+3
+4
+```
+
 ## Exercices
 
 
